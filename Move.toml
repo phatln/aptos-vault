@@ -1,0 +1,17 @@
+[package]
+name = "tap"
+version = "1.0.0"
+authors = []
+
+[addresses]
+tap = "_"
+
+[dev-addresses]
+tap = "0x33a683bfd6fa77fce88809d090cffae61305fd8a8fa78bc796fe3f5d031cf165"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
